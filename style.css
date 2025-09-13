@@ -1,0 +1,28 @@
+/* Estilo para usar la fuente de Google Fonts */
+body {
+    font-family: 'Roboto', sans-serif;
+    /* Añade un padding superior para que el contenido no quede oculto por la barra de navegación fija */
+    padding-top: 56px; 
+}
+
+/* Estilo para el desplazamiento suave al hacer clic en los enlaces de navegación */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Estilos para la sección de bienvenida (Hero) */
+#hero {
+    height: 80vh; /* Ocupa el 80% de la altura de la pantalla */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2070');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Efecto parallax */
+}
+
+/* Estilos para las tarjetas de proyecto para que todas tengan la misma altura */
+.card {
+    transition: transform 0.2s ease-in-out;
+}
+.card:hover {
+    transform: translateY(-5px); /* Efecto sutil al pasar el ratón */
+}

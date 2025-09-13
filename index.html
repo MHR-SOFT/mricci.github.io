@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mauro Ricci - Portafolio Profesional</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts (Opcional, para una tipografía más elegante) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Tu hoja de estilos personalizada -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- 1. Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mauro Ricci</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hero">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#consultoria">Arquitectura y Consultoría</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. Sección de Bienvenida (Hero) -->
+    <header id="hero" class="d-flex align-items-center">
+        <div class="container text-center text-white">
+            <h1 class="display-3">Mauro Ricci</h1>
+            <p class="lead">Desarrollador de Software y Arquitecto Tecnológico</p>
+            <p>Especialista en Java, Angular, Python y soluciones de Inteligencia Artificial.</p>
+            <a href="#proyectos" class="btn btn-primary btn-lg mt-3">Ver mis Proyectos</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- 3. Sección de Proyectos -->
+        <section id="proyectos" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-5">Proyectos Destacados</h2>
+                
+                <!-- Fila de Proyectos -->
+                <div class="row">
+                    <!-- Proyecto 1: Java y Angular -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="https://via.placeholder.com/300x200.png?text=Proyecto+Java/Angular" class="card-img-top" alt="Proyecto Java y Angular">
+                            <div class="card-body">
+                                <h5 class="card-title">Sistema de Gestión (Java + Angular)</h5>
+                                <p class="card-text">Descripción breve del proyecto. Una aplicación web completa para la gestión de clientes, construida con un backend en Spring Boot y un frontend reactivo en Angular.</p>
+                                <span class="badge bg-primary me-1">Java</span>
+                                <span class="badge bg-danger me-1">Angular</span>
+                                <span class="badge bg-info text-dark">Spring Boot</span>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-outline-dark">Ver en GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 2: APIs en Python -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="https://via.placeholder.com/300x200.png?text=API+en+Python" class="card-img-top" alt="API en Python">
+                            <div class="card-body">
+                                <h5 class="card-title">API REST para E-commerce (Python)</h5>
+                                <p class="card-text">Desarrollo de una API RESTful de alto rendimiento con Django REST Framework para gestionar productos, usuarios y pedidos de una tienda online.</p>
+                                <span class="badge bg-success me-1">Python</span>
+                                <span class="badge bg-secondary">Django</span>
+                                <span class="badge bg-dark">API REST</span>
+                            </div>
+                             <div class="card-footer">
+                                <a href="#" class="btn btn-outline-dark">Ver en GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 3: Inteligencia Artificial -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="https://via.placeholder.com/300x200.png?text=Proyecto+de+IA" class="card-img-top" alt="Proyecto de IA">
+                            <div class="card-body">
+                                <h5 class="card-title">Modelo de Clasificación de Imágenes (IA)</h5>
+                                <p class="card-text">Implementación de un modelo de machine learning para clasificar imágenes utilizando TensorFlow y Keras. Incluye el preprocesamiento de datos y el entrenamiento del modelo.</p>
+                                <span class="badge bg-warning text-dark me-1">IA</span>
+                                <span class="badge bg-info text-dark">TensorFlow</span>
+                                <span class="badge bg-primary">Python</span>
+                            </div>
+                             <div class="card-footer">
+                                <a href="#" class="btn btn-outline-dark">Ver en GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Sección de Arquitectura y Consultoría -->
+        <section id="consultoria" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5">Arquitectura y Consultoría</h2>
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <h4>Mi Enfoque</h4>
+                        <p>Con experiencia en el diseño de sistemas escalables y robustos, ofrezco servicios de consultoría para ayudar a equipos y empresas a tomar las mejores decisiones tecnológicas.</p>
+                        <ul>
+                            <li>Diseño de Arquitecturas de Microservicios.</li>
+                            <li>Optimización de rendimiento y escalabilidad en la nube (AWS, Azure).</li>
+                            <li>Estrategias de integración de APIs.</li>
+                            <li>Adopción de buenas prácticas y metodologías ágiles.</li>
+                        </ul>
+                        <p>Mi objetivo es alinear la tecnología con los objetivos de negocio para crear soluciones eficientes y a largo plazo.</p>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="https://via.placeholder.com/400x300.png?text=Arquitectura" class="img-fluid rounded" alt="Diagrama de Arquitectura">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 5. Pie de Página y Contacto -->
+    <footer id="contacto" class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>¿Interesado en colaborar? ¡Contáctame!</p>
+            <p>
+                <a href="mailto:mauro.ricci@email.com" class="text-white text-decoration-none mx-2">mauro.ricci@email.com</a>
+            </p>
+            <div>
+                <!-- Reemplaza '#' con tus enlaces reales -->
+                <a href="#" class="text-white mx-2">GitHub</a> |
+                <a href="#" class="text-white mx-2">LinkedIn</a>
+            </div>
+            <p class="mt-3 mb-0">&copy; 2024 Mauro Ricci. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Tu script personalizado -->
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+```
+
+### 2. El Estilo CSS (`css/style.css`)
+
+Este archivo le dará a tu página un aspecto único y profesional. He añadido algunos estilos para la sección de bienvenida y para asegurar que el desplazamiento sea suave.
+
+```diff
